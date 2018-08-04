@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>samsung-usb-driver</id>
+    <version>1.5.51.0</version>
+    <title>SAMSUNG USB Driver for Mobile Phones</title>
+    <authors>SAMSUNG</authors>
+    <projectUrl>https://developer.samsung.com/galaxy/others/android-usb-driver-for-windows</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/valentind44/chocolatey-packages/7faedd89/icons/samsung-usb-driver.png</iconUrl>
+    <copyright>© SAMSUNG</copyright>
+    <tags>samsung usb driver</tags>
+    <summary>Advanced USB driver for SAMSUNG devices.</summary>
+    <description>You need the driver only if you are developing on Windows and want to connect a Samsung android device to your development environment over USB.</description>
+  </metadata>
+  <files><file src="tools\**" target="tools" />
+  </files>
+</package>
