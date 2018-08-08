@@ -6,12 +6,17 @@
     <title>Dacia Media Nav Toolbox</title>
     <authors>NNG Llc.</authors>
     <projectUrl>https://dacia.naviextras.com/shop/portal/downloads</projectUrl>
+    <docsUrl>https://dacia.naviextras.com/shop/portal/p2howto-guide?guide=Toolbox</docsUrl>
     <iconUrl>https://cdn.rawgit.com/valentind44/chocolatey-packages/d013363b/icons/dacia-media-nav-toolbox.png</iconUrl>
-    <copyright>© 2011 NNG Software Developing and Commercial Llc.</copyright>
+    <copyright>© NNG Software Developing and Commercial Llc.</copyright>
     <tags>dacia medianav toolbox</tags>
     <summary>A tool that allows you to sync new content to your Dacia Media Nav</summary>
     <description>Dacia Media Nav Toolbox is a Windows utility. It lets you see all available updates, download the one you want from the Internet, and upload updates and new content to your Media Nav.</description>
-  </metadata>
+    <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/manual/dacia-media-nav-toolbox</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey" version="0.9.9" />
+    </dependencies>
+	</metadata>
   <files><file src="tools\**" target="tools" />
   </files>
 </package>

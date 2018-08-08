@@ -5,7 +5,8 @@
     <version>1.4.4</version>
     <title>Lyrics Finder</title>
     <authors>MediaHuman</authors>
-    <projectUrl>https://www.mediahuman.com/lyrics-finder/</projectUrl>
+    <projectUrl>https://www.mediahuman.com/lyrics-finder</projectUrl>
+    <docsUrl>https://www.mediahuman.com/lyrics-finder/guides/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/valentind44/chocolatey-packages/6ac421ae/icons/lyricsfinder.png</iconUrl>
     <copyright>© MediaHuman</copyright>
     <tags>lyrics finder tag mp3</tags>
@@ -15,7 +16,10 @@
 Very easy to use: simply drag and drop some tracks from your favorite music player (e.g. iTunes) and MediaHuman Lyrics Finder will do the rest.
 
 MediaHuman Lyrics Finder will give you access to over a million different lyrics collected from various sources on the Internet.</description>
+  <releaseNotes>https://www.mediahuman.com/lyrics-finder/changelog.html</releaseNotes>
+  <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/manual/lyricsfinder</packageSourceUrl>
   <dependencies>
+     <dependency id="chocolatey" version="0.9.9" />
      <dependency id="innounp" version="0.47" />
   </dependencies>
   </metadata>

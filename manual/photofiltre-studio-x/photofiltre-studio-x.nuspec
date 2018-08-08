@@ -6,6 +6,7 @@
     <title>PhotoFiltre Studio X</title>
     <authors>Antonio Da Cruz</authors>
     <projectUrl>http://www.photofiltre-studio.com/download.htm</projectUrl>
+	<docsUrl>http://www.photofiltre-studio.com/doc/index.htm</docsUrl>
     <iconUrl>https://cdn.rawgit.com/valentind44/chocolatey-packages/d3d33132/icons/photofiltre-studio-x.png</iconUrl>
     <copyright>© Antonio Da Cruz</copyright>
     <tags>photofiltre studio x image editing</tags>
@@ -16,6 +17,10 @@ has an easy learning curve. The toolbar, giving you access to the standard filte
 clicks, gives PhotoFiltre Studio a robust look. PhotoFiltre Studio also has layer manager (with Alpha
 channel), advanced brushes, nozzles (or tubes), red eye corrector, batch module and lot of other
 powerful tools.</description>
+    <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/manual/photofiltre-studio-x</packageSourceUrl>
+	<dependencies>
+     <dependency id="chocolatey" version="0.9.9" />
+    </dependencies>
   </metadata>
   <files><file src="tools\**" target="tools" />
   </files>

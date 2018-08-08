@@ -11,6 +11,11 @@
     <tags>samsung usb driver</tags>
     <summary>Advanced USB driver for SAMSUNG devices.</summary>
     <description>You need the driver only if you are developing on Windows and want to connect a Samsung android device to your development environment over USB.</description>
+  <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/manual/samsung-usb-driver</packageSourceUrl>
+  <dependencies>
+     <dependency id="chocolatey" version="0.9.9" />
+     <dependency id="chocolatey-core.extension" version="1.0" />
+  </dependencies>
   </metadata>
   <files><file src="tools\**" target="tools" />
   </files>
