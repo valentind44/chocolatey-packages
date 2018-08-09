@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: valentind44/chocolatey-packages
   github_api_key:
-    secure: wx3VXymkvD/OrO/VqbSwBpSJdac2nc21AcNIf/W7WiZjPqau6eNCdYrC3y/GXzHR
+    secure: dCmUJjqWWh8EGdtojCHafmZg5XE4ZkItC/nGBk95wGlFMrWOzmHPbDOQwK6DGaK0
 
 
   # Mail credentials - for error notifications
