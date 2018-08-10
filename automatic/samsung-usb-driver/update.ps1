@@ -35,10 +35,10 @@ if ($date -ne $packageDate)
 		git add date.txt		
 
         "Downloading file to get version"
-        if (Test-Path "$env:TEMP\au\file") {
-          Remove-Item -path "$env:TEMP\aufile"
+        if (Test-Path "$env:TEMP\aufile-samsung-usb-driver") {
+          Remove-Item -path "$env:TEMP\aufile-samsung-usb-driver"
         }
-        Invoke-WebRequest -Uri $url -OutFile "$env:TEMP\aufile"
+        Invoke-WebRequest -Uri $url -OutFile "$env:TEMP\aufile-samsung-usb-driver"
 
         Add-Type -AssemblyName System.IO.Compression.FileSystem
         function Unzip
@@ -48,12 +48,12 @@ if ($date -ne $packageDate)
             [System.IO.Compression.ZipFile]::ExtractToDirectory($zipfile, $outpath)
         }
 
-        if (Test-Path "$env:TEMP\auoutdir") {
-          Remove-Item -path "$env:TEMP\auoutdir" -recurse
+        if (Test-Path "$env:TEMP\auoutdir-samsung-usb-driver") {
+          Remove-Item -path "$env:TEMP\auoutdir-samsung-usb-driver" -recurse
         }
-        Unzip "$env:TEMP\aufile" "$env:TEMP\auoutdir"
+        Unzip "$env:TEMP\aufile-samsung-usb-driver" "$env:TEMP\auoutdir-samsung-usb-driver"
 
-        $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo("$env:TEMP\auoutdir\SAMSUNG_USB_Driver_for_Mobile_Phones.exe").FileVersion
+        $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo("$env:TEMP\auoutdir-samsung-usb-driver\SAMSUNG_USB_Driver_for_Mobile_Phones.exe").FileVersion
 
     }
     else{
