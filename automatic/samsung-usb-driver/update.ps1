@@ -34,7 +34,7 @@ if ($date -ne $packageDate)
         $date | Out-File -filepath date.txt
 		git add date.txt
 		git commit -m "Update samsung-usb-driver software release date"
-		git push
+		git push origin master
 		
 
         "Downloading file to get version"
