@@ -31,8 +31,7 @@ $packageDate = Get-Content date.txt
 if ($date -ne $packageDate)
     {
         "Date mismatch: new version may be available"
-        $date | Out-File -filepath date.txt
-		git add date.txt		
+        $date | Out-File -filepath date.txt	
 
         "Downloading file to get version"
         if (Test-Path "$env:TEMP\aufile-samsung-usb-driver") {

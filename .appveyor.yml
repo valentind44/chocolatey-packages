@@ -102,11 +102,6 @@ notifications:
   on_build_success: false
   on_build_failure: true
   on_build_status_changed: true
-
-on_success:
-  - git config --global user.name "valentind44"
-  - git commit  -m "Update software release date"
-  - git push origin master
   
 #on_finish:
 #- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
