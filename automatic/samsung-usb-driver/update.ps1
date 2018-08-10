@@ -32,6 +32,10 @@ if ($date -ne $packageDate)
     {
         "Date mismatch: new version may be available"
         $date | Out-File -filepath date.txt
+		git add date.txt
+		git commit -m "Update samsung-usb-driver software release date"
+		git push
+		
 
         "Downloading file to get version"
         if (Test-Path "$env:TEMP\au\file") {
