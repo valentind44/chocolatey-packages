@@ -17,7 +17,7 @@ Very easy to use: simply drag and drop some tracks from your favorite music play
 
 MediaHuman Lyrics Finder will give you access to over a million different lyrics collected from various sources on the Internet.</description>
   <releaseNotes>https://www.mediahuman.com/lyrics-finder/changelog.html</releaseNotes>
-  <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/manual/lyricsfinder</packageSourceUrl>
+  <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/automatic/lyricsfinder</packageSourceUrl>
   <dependencies>
      <dependency id="chocolatey" version="0.9.9" />
      <dependency id="innounp" version="0.47" />

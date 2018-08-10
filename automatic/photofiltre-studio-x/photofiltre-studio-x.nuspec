@@ -17,7 +17,7 @@ has an easy learning curve. The toolbar, giving you access to the standard filte
 clicks, gives PhotoFiltre Studio a robust look. PhotoFiltre Studio also has layer manager (with Alpha
 channel), advanced brushes, nozzles (or tubes), red eye corrector, batch module and lot of other
 powerful tools.</description>
-    <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/manual/photofiltre-studio-x</packageSourceUrl>
+    <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/automatic/photofiltre-studio-x</packageSourceUrl>
 	<dependencies>
      <dependency id="chocolatey" version="0.9.9" />
     </dependencies>
