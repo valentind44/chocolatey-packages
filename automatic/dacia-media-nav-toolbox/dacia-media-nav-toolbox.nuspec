@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>dacia-media-nav-toolbox</id>
-    <version>3.18.5.647040</version>
+    <version>3.18.5.740218</version>
     <title>Dacia Media Nav Toolbox</title>
     <authors>NNG Llc.</authors>
     <projectUrl>https://dacia.naviextras.com/shop/portal/downloads</projectUrl>
