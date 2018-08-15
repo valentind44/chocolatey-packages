@@ -12,7 +12,6 @@ function global:au_GetLatest {
     {
         $version = $matches[1]
     }
-    $version
     @{
        URL32   = $url
        Version = $version

@@ -13,6 +13,7 @@
     <summary>French TV service over the internet</summary>
     <description>Molotov TV, or simply Molotov, is a French service of distribution of television channels over the Internet.</description>
     <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/automatic/molotov</packageSourceUrl>
+	<owners>valentind</owners>
 	<dependencies>
      <dependency id="chocolatey" version="0.9.9" />
     </dependencies>

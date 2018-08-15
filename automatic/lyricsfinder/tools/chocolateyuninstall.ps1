@@ -10,6 +10,6 @@ if (Test-Path $registryKeyPathSoftware) {
   Remove-Item -path $registryKeyPathSoftware -recurse
 }
 
-if (!(Test-Path $registryKeyPathEditor\*)) {
+if ( (!(Test-Path $registryKeyPathEditor\*)) -and (Test-Path $registryKeyPathEditor) ) {
   Remove-Item -path $registryKeyPathEditor -recurse
 }

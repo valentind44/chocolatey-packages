@@ -18,6 +18,7 @@ clicks, gives PhotoFiltre Studio a robust look. PhotoFiltre Studio also has laye
 channel), advanced brushes, nozzles (or tubes), red eye corrector, batch module and lot of other
 powerful tools.</description>
     <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/automatic/photofiltre-studio-x</packageSourceUrl>
+	<owners>valentind</owners>
 	<dependencies>
      <dependency id="chocolatey" version="0.9.9" />
     </dependencies>

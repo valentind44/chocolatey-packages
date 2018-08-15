@@ -13,6 +13,7 @@
     <summary>Manage your LG device from your PC</summary>
     <description>LG Bridge brings all your LG devices (phones and tablets) together. You can manage, update, and back up your devices all in one place.</description>
     <packageSourceUrl>https://github.com/valentind44/chocolatey-packages/tree/master/automatic/lgbridge</packageSourceUrl>
+	<owners>valentind</owners>
     <dependencies>
       <dependency id="chocolatey" version="0.9.9" />
     </dependencies>
