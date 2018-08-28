@@ -1,6 +1,6 @@
 # Chocolatey Packages
 
-[![](https://ci.appveyor.com/api/projects/status/github/valentind44/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
+[![](https://ci.appveyor.com/api/projects/status/github/valentind44/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/valentind44/chocolatey-packages)
 [Update status](https://gist.github.com/valentind44)
 
 ## Chocolatey Packages Template
