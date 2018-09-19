@@ -2,10 +2,10 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url           = 'https://desktop-auto-upgrade.molotov.tv/win/ia32/MolotovSetup-2.2.2-ia32.exe'
-  url64bit      = 'https://desktop-auto-upgrade.molotov.tv/win/x64/MolotovSetup-2.2.2.exe'
-  checksum      = '341088AC3E5DB93EC0763B93D9459FF17C5B8A95E38A33D2D9464449C5C1534B'
-  checksum64    = '964A453F3BAD51EB591985C51592D74C8D33999A71EBBDEA7D002CA5BE6CDF11'
+  url           = 'https://desktop-auto-upgrade.molotov.tv/win/ia32/MolotovSetup-2.3.0-ia32.exe'
+  url64bit      = 'https://desktop-auto-upgrade.molotov.tv/win/x64/MolotovSetup-2.3.0.exe'
+  checksum      = '2f714a73238b0b8b808d1bb3ff442c3589a67db07160a4a025b0d81e8a8cc5ab'
+  checksum64    = 'd172b7357cca35ac555fe0f3420f2e2b5d8c06f1106ddcbf7db7b887f6dfa3c9'
   checksumType  = 'sha256'
   silentArgs   = '/s'
 }
