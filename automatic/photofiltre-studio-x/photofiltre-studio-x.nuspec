@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>photofiltre-studio-x</id>
-    <version>10.13.0</version>
+    <version>10.13.1</version>
     <title>PhotoFiltre Studio X</title>
     <authors>Antonio Da Cruz</authors>
     <projectUrl>http://www.photofiltre-studio.com/download.htm</projectUrl>
