@@ -6,7 +6,7 @@ $getArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileFullPath  = $webFilePath
   url           = 'https://www.mediahuman.com/download/LyricsFinder.exe'
-  checksum      = 'BF59876A6EF5D1224A881562DA3D1B9BE6E7D822489A35F087509ADD4BFBF3B8'
+  checksum      = 'b79dadac5e4111965f8c770faaf31b42334ca94df8e8fa0964031faf21207c5b'
   checksumType  = 'sha256'
 }
 
