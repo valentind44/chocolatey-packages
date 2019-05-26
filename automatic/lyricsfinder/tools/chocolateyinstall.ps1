@@ -17,7 +17,7 @@ innounp -x "$webFilePath" -d"$toolsDir" -y -q
 
 Remove-Item -path "$toolsDir\{tmp}" -recurse
 Remove-Item -path "$toolsDir\install_script.iss"
-Move-Item -Path "$toolsDir\{app}\*" -Destination "$toolsDir"
+Move-Item -Path "$toolsDir\{app}\*" -Destination "$toolsDir" -Force
 Remove-Item -path "$toolsDir\{app}"
 
 Install-ChocolateyShortcut -shortcutFilePath "$($env:ProgramData)\Microsoft\Windows\Start Menu\Lyrics Finder.lnk" -targetPath "$toolsDir\LyricsFinder.exe"
