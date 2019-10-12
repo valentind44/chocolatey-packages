@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>samsung-usb-driver</id>
-    <version>1.5.51.0</version>
+    <version>1.7.17.0</version>
     <title>SAMSUNG USB Driver for Mobile Phones</title>
     <authors>SAMSUNG</authors>
     <projectUrl>https://developer.samsung.com/galaxy/others/android-usb-driver-for-windows</projectUrl>
