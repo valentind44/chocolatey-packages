@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>molotov</id>
-    <version>4.2.0</version>
+    <version>4.2.1</version>
     <title>Molotov</title>
     <authors>Molotov</authors>
     <projectUrl>https://www.molotov.tv/download</projectUrl>
