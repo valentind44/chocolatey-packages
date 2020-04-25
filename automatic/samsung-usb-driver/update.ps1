@@ -1,53 +1,21 @@
 import-module au
 
-$releases = 'https://developer.samsung.com/galaxy/others/android-usb-driver-for-windows'
-
 function global:au_GetLatest {
-$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $url = 'https://d3unf4s5rp9dfh.cloudfront.net/Mobile_doc/SAMSUNG_USB_Driver_for_Mobile_Phones.exe'
+    $tempDl = "$env:TEMP\aufile-samsung-usb-driver\SAMSUNG_USB_Driver_for_Mobile_Phones.exe"
 
-$re  = ".*actId=(.+?)$"
-$url = $download_page.links | ? href -match $re | select -First 1 -expand href
-
-if ($url -match $re)
-    {
-        $downloadid = $matches[1]
+    "Downloading file to get version"
+    if (Test-Path $tempDl) {
+        Remove-Item -path $tempDl
     }
+    New-Item -Path "$env:TEMP\aufile-samsung-usb-driver" -ItemType Directory -Force
+    Invoke-WebRequest -Uri $url -OutFile $tempDl
+    $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($tempDl).FileVersion
+    $checksum = (Get-FileHash $tempDl -Algorithm SHA256).Hash
 
-$url = 'https://developer.samsung.com/common/download.do?actId=' + $downloadid
-
-
-$re  = '<span class="sd2_page_title_side">(.+?)</span>'
-if ($download_page.Content -match $re)
-    {
-        $date = $matches[1]
-    }
-
-if (!(Test-Path "date.txt")) {
-   'No date' | Out-File -filepath date.txt       
-}
-$packageDate = Get-Content date.txt
-
-
-if ($date -ne $packageDate)
-    {
-        "Date mismatch: new version may be available"
-        $date | Out-File -filepath date.txt	
-
-        "Downloading file to get version"
-        if (Test-Path "$env:TEMP\aufile-samsung-usb-driver\SAMSUNG_USB_Driver_for_Mobile_Phones.exe") {
-          Remove-Item -path "$env:TEMP\aufile-samsung-usb-driver\SAMSUNG_USB_Driver_for_Mobile_Phones.exe"
-        }
-		New-Item -Path "$env:TEMP\aufile-samsung-usb-driver" -ItemType Directory -Force
-        Invoke-WebRequest -Uri $url -OutFile "$env:TEMP\aufile-samsung-usb-driver\SAMSUNG_USB_Driver_for_Mobile_Phones.exe"
-        $version = [System.Diagnostics.FileVersionInfo]::GetVersionInfo("$env:TEMP\aufile-samsung-usb-driver\SAMSUNG_USB_Driver_for_Mobile_Phones.exe").FileVersion
-
-    }
-    else{
-    [xml]$nuspec = Get-Content 'samsung-usb-driver.nuspec'
-    $version = $nuspec.package.metadata.version
-    }
     @{
        URL32   = $url
+       Checksum32 = $checksum
        Version = $version
     }
 }
