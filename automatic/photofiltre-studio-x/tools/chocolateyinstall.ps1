@@ -2,8 +2,8 @@
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  url           = 'http://static.infomaniak.ch/photofiltre/utils/pfsx-setup-fr-10.14.0.exe'
-  checksum      = '9F883BB57C6E6BB03DC08C30DB4163A56D66BA5F4E4F178CF6E2033F7B89226F'
+  url           = 'http://static.infomaniak.ch/photofiltre/utils/pfsx-setup-fr-10.14.1.exe'
+  checksum      = '1fa942b6829771f594f8f6b0899c557f31caa79eb8137dd59394121adf254bb5'
   checksumType  = 'sha256'
   silentArgs   = '/S'
 }
