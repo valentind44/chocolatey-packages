@@ -3,13 +3,13 @@
   <metadata>
     <id>lyricsfinder</id>
     <version>1.5.1</version>
-    <title>Lyrics Finder</title>
+    <title>Lyrics Finder (Portable) (Trial)</title>
     <authors>MediaHuman</authors>
     <projectUrl>https://www.mediahuman.com/lyrics-finder</projectUrl>
     <docsUrl>https://www.mediahuman.com/lyrics-finder/guides/</docsUrl>
     <iconUrl>https://cdn.rawgit.com/valentind44/chocolatey-packages/6ac421ae/icons/lyricsfinder.png</iconUrl>
     <copyright>© MediaHuman</copyright>
-    <tags>lyrics finder tag mp3</tags>
+    <tags>lyrics finder tag mp3 portable trial</tags>
     <summary>Automatically search and add lyrics to tracks in your music collection</summary>
     <description>MediaHuman Lyrics Finder is a free software application, which can help you find and add missing lyrics (song text) to all songs in your music library. It's a safe operation because the app doesn't overwrite lyrics you've already had.
 
