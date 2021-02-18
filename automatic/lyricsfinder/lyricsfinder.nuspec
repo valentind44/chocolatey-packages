@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lyricsfinder</id>
-    <version>1.5.1</version>
+    <version>1.5.2</version>
     <title>Lyrics Finder (Portable) (Trial)</title>
     <authors>MediaHuman</authors>
     <projectUrl>https://www.mediahuman.com/lyrics-finder</projectUrl>
